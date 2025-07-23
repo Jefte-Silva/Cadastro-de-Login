@@ -1,0 +1,86 @@
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CENTRALIZA TUDO NA TELA */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* TÍTULO MAIS EVIDENTE */
+header h1 {
+    color: #2980b9;
+    font-size: 36px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* FORMULÁRIO VISUALMENTE GRANDE */
+form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* INPUTS MAIORES E MAIS CONFORTÁVEIS */
+input {
+    width: 100%;
+    padding: 16px;
+    margin: 14px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* BOTÃO DESTACADO */
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 16px;
+    border: none;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* MENSAGEM DE SUCESSO ESTILIZADA */
+.alert-success {
+    color: #2e7d32;
+    background-color: #c8e6c9;
+    border-left: 6px solid #43a047;
+    padding: 16px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    animation: fadein 0.5s ease-in-out;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
