@@ -1,6 +1,10 @@
 # 📝 Cadastro de Nome e Senha
 
-Este projeto é uma aplicação web construída com **Spring Boot**, 
+"Neste projeto, optei por implementar manualmente os métodos get e set, 
+além dos construtores, com o objetivo de consolidar meu entendimento sobre encapsulamento, 
+modelagem de entidades e boas práticas na construção de aplicações utilizando Spring Boot e JPA."
+
+É uma aplicação web construída com **Spring Boot**, 
 **Thymeleaf** e **MySQL**, permitindo o cadastro de usuários com nome e senha. 
 A interface é estilizada com CSS puro e layout centralizado.
 
