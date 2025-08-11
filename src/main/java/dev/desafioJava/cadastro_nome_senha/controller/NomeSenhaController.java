@@ -3,11 +3,12 @@ package dev.desafioJava.cadastro_nome_senha.controller;
 import dev.desafioJava.cadastro_nome_senha.dto.UsuarioRespostaDTO;
 import dev.desafioJava.cadastro_nome_senha.model.NomeSenhaModel;
 import dev.desafioJava.cadastro_nome_senha.service.NomeSenhaService;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
+@Controller
 @RequestMapping("/usuarios")
 public class NomeSenhaController {
 
